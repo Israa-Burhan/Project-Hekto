@@ -1,0 +1,109 @@
+@import "../../../../../assets/scss/vars.scss";
+
+@import "../../../../../assets/scss/mixins.scss";
+
+@import "../../../../../assets/scss/glubal-rules.scss";
+
+// strat heading-bar
+
+.heading-bar {
+  background-color: $main-color;
+
+  .row {
+    height: 44px;
+
+    p,
+    a {
+      color: #F1F1F1;
+      font-family: Josefin Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+
+      svg {
+        width: 16px;
+      }
+    }
+
+    .logo {
+      p {
+        color: $white;
+        font-family: Josefin Sans;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+
+    .head-left {
+      .envelope {
+        margin-right: 48px;
+
+        @include mdwidth {
+          margin-right: 10px;
+        }
+
+        span {
+          padding-right: 10px;
+        }
+      }
+
+      .phone {
+        span {
+          padding-right: 12px;
+        }
+      }
+
+      @include smwidth {
+        display: none;
+      }
+    }
+
+    .nav {
+      .nav-item {
+        margin-right: 17px;
+        cursor: pointer;
+
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+
+        .wish {
+          padding-left: 3px;
+        }
+
+        ul {
+          min-width: 8rem !important;
+
+          li {
+            margin: 0 10px;
+
+            a {
+              font-family: Josefin Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              color: $black;
+              border-radius: 6px;
+
+              &:hover {
+                background-color: $main-color;
+                color: $white;
+                transition: 0.4s;
+              }
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+
+
+
+}
+
+// strat heading-bar
