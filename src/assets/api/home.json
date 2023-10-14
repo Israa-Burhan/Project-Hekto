@@ -1,0 +1,54 @@
+{
+  "slider": [
+    {
+      "hint": "Best Furniture For Your Castle....",
+      "titleSlider": "New Furniture Collection Trends in 2020",
+      "descriptionSlider": "Lorem ipsum dolor sit amet , consectetur adipiscing elit . Magnain est adipiscing in phasellus non in justo.",
+      "imgslider": "../../../../../assets/images/home/slider1.png"
+    },
+    {
+      "hint": "Best Furniture For Your Castle....",
+      "titleSlider": "New Furniture Collection Trends in 2020",
+      "descriptionSlider": "Lorem ipsum dolor sit amet , consectetur adipiscing elit . Magnain est adipiscing in phasellus non in justo.",
+      "imgslider": "../../../../../assets/images/home/slider2.png"
+    },
+    {
+      "hint": "Best Furniture For Your Castle....",
+      "titleSlider": "New Furniture Collection Trends in 2020",
+      "descriptionSlider": "Lorem ipsum dolor sit amet , consectetur adipiscing elit . Magnain est adipiscing  in phasellus non in justo.",
+      "imgslider": "../../../../../assets/images/home/slider3.png"
+    }
+  ],
+  "featuredPro": [
+    {
+      "featImg": "../../../../../assets/images/home/image 1168.png",
+      "titleFeat": "Cantilever chair",
+      "codeFeat": "Code - Y523201",
+      "saleFeat": "42.00"
+    },
+    {
+      "featImg": "../../../../../assets/images/home/image 1.png",
+      "titleFeat": "Folding chair",
+      "codeFeat": "Code - Z524501",
+      "saleFeat": "75.00"
+    },
+    {
+      "featImg": "../../../../../assets/images/home/image 1169.png",
+      "titleFeat": "Chaise longue",
+      "codeFeat": "Code - H929801",
+      "saleFeat": "93.00"
+    },
+    {
+      "featImg": "../../../../../assets/images/home/image 3.png",
+      "titleFeat": "Adirondack chair",
+      "codeFeat": "Code - Y263291",
+      "saleFeat": "60.50"
+    },
+    {
+      "featImg": "../../../../../assets/images/home/image 1171.png",
+      "titleFeat": "Aeron chair",
+      "codeFeat": "Code - Y628205",
+      "saleFeat": "87.06"
+    }
+  ]
+}

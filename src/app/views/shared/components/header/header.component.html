@@ -3,9 +3,9 @@
 <div class="heading-bar">
   <div class="container">
     <div class="row d-flex justify-content-between align-content-center">
-      <div class="col-lg-6 col-8">
+      <div class="col-lg-6 col-8 d-sm-none d-block">
         <div class="logo">
-          <p>hekto</p>
+          <p>Hekto</p>
         </div>
       </div>
       <div class=" head-left col-lg-6 col-8 ">
@@ -21,8 +21,8 @@
 
         </div>
       </div>
-      <div class="col-lg-6 col-4">
-        <ul class="nav justify-content-end">
+      <div class="col-lg-6 col-4 d-flex justify-content-end align-items-center">
+        <ul class="nav">
           <li class="nav-item d-lg-block d-none">
             <a class="nav-link " data-bs-toggle="dropdown" aria-expanded="false">English <i
                 class="fa-solid fa-chevron-down"></i>
@@ -40,8 +40,8 @@
             </a>
           </li>
           <li class="nav-item d-lg-block d-none">
-            <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false">USD <i
-                class="fa-solid fa-chevron-down"></i>
+            <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false">USD
+              <i class="fa-solid fa-chevron-down"></i>
               <ul class="shadow dropdown-menu p-0 border-0 rounded-0 position-absolute">
                 <li class="ms-2 py-1 text-center">
                   <a class="dropdown-item pt-2 pb-2  pe-0" href="#">USD</a>
@@ -79,4 +79,50 @@
 </div>
 
 <!-- end heading-bar -->
+<!-- start nav-bar -->
 
+<div class="nav-bar">
+  <div class="container">
+    <div class=" d-flex align-content-center">
+
+      <div class="logo">
+        <p>Hekto</p>
+      </div>
+      <div class="d-flex align-items-center">
+        <ul class="nav  ">
+          <li class="nav-item">
+            <a class="nav-link " routerLink="/home" routerLinkActive="active">Home <i
+                class="fa-solid fa-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/pages" routerLinkActive="active">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/products" routerLinkActive="active">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/blog" routerLinkActive="active">Blog </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/shop" routerLinkActive="active">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex justify-content-end align-items-center">
+        <div class="search">
+          <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button" id="">Button</button>
+            <input type="text" class="form-control" placeholder="" aria-label="Button" aria-describedby="">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end nav-bar -->

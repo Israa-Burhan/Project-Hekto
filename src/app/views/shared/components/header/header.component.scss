@@ -107,3 +107,55 @@
 }
 
 // strat heading-bar
+//start nav-bar
+
+.nav-bar {
+  height: 40px;
+  margin: 19px 0;
+
+  .logo {
+    margin-right: 88px;
+
+    p {
+      color: #0D0E43;
+      font-family: Josefin Sans;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+
+
+  .nav {
+    .nav-item {
+      margin-right: 35px;
+
+      .nav-link {
+        color: #0D0E43;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        cursor: pointer;
+        /* 125% */
+
+      }
+
+      .active {
+        color: #FB2E86;
+      }
+    }
+
+  }
+
+  .search {
+    width: 317px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+}
+
+//end nav-bar
