@@ -36,6 +36,9 @@
           bottom: 9px;
           z-index: 1;
         }
+        .icon-feat {
+          z-index: 1;
+        }
       }
       .feat-body {
         background-color: #00009d;
@@ -58,6 +61,8 @@
       .icon-feat {
         left: 11px;
         top: 11px;
+        z-index: -1;
+        transition: 0.3s;
         a {
           transition: 0.3s;
           padding: 8px;

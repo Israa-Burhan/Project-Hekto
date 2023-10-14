@@ -9,14 +9,14 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./featured-products.component.scss'],
 })
 export class FeaturedProductsComponent {
-  public featuredPro: any;
+  public home: any;
   customOptions: OwlOptions = {
     loop: true,
     dots: true,
     margin: 20,
     animateOut: 'fadeOut',
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 6000,
     autoplayHoverPause: true,
     dotsEach: true,
     responsive: {
@@ -40,7 +40,7 @@ export class FeaturedProductsComponent {
 
   createfeaturedPro() {
     this.http.get('assets/api/home.json').subscribe((data: any) => {
-      this.featuredPro = data.featuredPro;
+      this.home = data.home;
     });
   }
   ngOnInit() {
