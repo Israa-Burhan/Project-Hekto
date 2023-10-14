@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./slider.component.scss'],
 })
 export class SliderComponent {
-  public slider: any;
+  public home: any;
   customOptions: OwlOptions = {
     loop: true,
     margin: 0,
@@ -30,7 +30,7 @@ export class SliderComponent {
 
   createslider() {
     this.http.get('assets/api/home.json').subscribe((data: any) => {
-      this.slider = data.slider;
+      this.home = data.home;
     });
   }
   ngOnInit() {

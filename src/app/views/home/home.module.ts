@@ -6,9 +6,10 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { SliderComponent } from './components/slider/slider.component';
 import { FeaturedProductsComponent } from './components/featured-products/featured-products.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LatestProductsComponent } from './components/latest-products/latest-products.component';
 
 @NgModule({
-  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent],
+  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
 export class HomeModule {}
