@@ -33,6 +33,9 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        @include smwidth {
+            font-size: 30px;
+          }
       }
     }
 
@@ -114,7 +117,6 @@
   margin: 19px 0;
 
   .logo {
-    margin-right: 88px;
 
     p {
       color: #0D0E43;
@@ -125,8 +127,6 @@
       line-height: normal;
     }
   }
-
-
 
   .nav {
     .nav-item {
@@ -141,21 +141,105 @@
         line-height: 20px;
         cursor: pointer;
         /* 125% */
-
       }
 
       .active {
-        color: #FB2E86;
+        color: $secondry-color;
       }
-    }
-
+                                                                                                                                                                                                                                                                }
   }
 
   .search {
     width: 317px;
     height: 40px;
     flex-shrink: 0;
+    input {
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    
+      .search-icon {
+        width: 51px;
+        background-color: $secondry-color;
+        cursor: pointer;
+    
+        svg {
+          width: 24px;
+          height: 24px;
+          color: $white;
+        }
+      }
   }
 }
 
 //end nav-bar
+//start offcanvas
+
+.offcanvas {
+  width: calc(100% - 50%);
+
+  @include smwidth {
+    width: calc(100% - 30%);
+  }
+
+  .offcanvas-header {
+    h5 {
+      color: $main-color;
+      font-family: Josefin Sans;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+
+  .offcanvas-body {
+    .link {
+      ul {
+        a {
+          color: #0D0E43;
+          font-family: Josefin Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .icon {
+      svg {
+        color: $main-color;
+      }
+    }
+
+    .nav {
+      a {
+        color: #0D0E43;
+        font-family: Josefin Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .active {
+        color: $secondry-color;
+      }
+    }
+
+    p {
+      color: #0D0E43;
+      font-family: Josefin Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+
+      svg {
+        color: $main-color;
+      }
+    }
+  }
+}
+
+//end offcanvas
