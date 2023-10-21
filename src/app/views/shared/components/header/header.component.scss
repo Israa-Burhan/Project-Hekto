@@ -3,6 +3,7 @@
 @import "../../../../../assets/scss/mixins.scss";
 
 @import "../../../../../assets/scss/glubal-rules.scss";
+
 // strat heading-bar
 
 .heading-bar {
@@ -13,7 +14,7 @@
 
     p,
     a {
-      color: #F1F1F1;
+      color: #f1f1f1;
       font-family: Josefin Sans;
       font-size: 16px;
       font-style: normal;
@@ -33,8 +34,8 @@
         font-weight: 700;
         line-height: normal;
         @include smwidth {
-            font-size: 30px;
-            }
+          font-size: 30px;
+          }
       }
     }
 
@@ -84,7 +85,7 @@
 
             a {
               font-family: Josefin Sans;
-                font-size: 14px;
+              font-size: 14px;
               font-style: normal;
               font-weight: 600;
               color: $black;
@@ -96,16 +97,11 @@
                 transition: 0.4s;
               }
             }
-          }
-
-
+                    }
         }
       }
     }
-  }
-
-
-
+    }
 }
 
 // strat heading-bar
@@ -116,9 +112,8 @@
   margin: 19px 0;
 
   .logo {
-
     p {
-      color: #0D0E43;
+      color: #0d0e43;
       font-family: Josefin Sans;
       font-size: 34px;
       font-style: normal;
@@ -132,7 +127,7 @@
       margin-right: 35px;
 
       .nav-link {
-        color: #0D0E43;
+        color: #0d0e43;
         font-family: Lato;
         font-size: 16px;
         font-style: normal;
@@ -145,7 +140,7 @@
       .active {
         color: $secondry-color;
       }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+        }
   }
 
   .search {
@@ -153,22 +148,22 @@
     height: 40px;
     flex-shrink: 0;
     input {
-        &:focus {
-            box-shadow: none;
-          }
+      &:focus {
+          box-shadow: none;
         }
+      }
 
-            .search-icon {
-              width: 51px;
-              background-color: $secondry-color;
-              cursor: pointer;
+        .search-icon {
+          width: 51px;
+          background-color: $secondry-color;
+          cursor: pointer;
 
-        svg {
-            width: 24px;
-            height: 24px;
-            color: $white;
-          }
+      svg {
+          width: 24px;
+          height: 24px;
+          color: $white;
         }
+      }
   }
 }
 
@@ -193,12 +188,11 @@
     }
   }
 
-
   .offcanvas-body {
     .link {
       ul {
         a {
-          color: #0D0E43;
+          color: #0d0e43;
           font-family: Josefin Sans;
           font-size: 16px;
           font-style: normal;
@@ -215,7 +209,7 @@
 
     .nav {
       a {
-        color: #0D0E43;
+        color: #0d0e43;
         font-family: Josefin Sans;
         font-size: 16px;
         font-style: normal;
@@ -228,7 +222,7 @@
     }
 
     p {
-      color: #0D0E43;
+      color: #0d0e43;
       font-family: Josefin Sans;
       font-size: 16px;
       font-style: normal;

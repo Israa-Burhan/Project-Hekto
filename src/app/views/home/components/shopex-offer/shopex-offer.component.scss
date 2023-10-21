@@ -1,4 +1,5 @@
 @import "../../../../../assets/scss/mixins.scss";
+@import "../../../../../assets/scss/vars.scss";
 .section-offer {
   margin-bottom: 135px;
   .item-Offer {
@@ -13,13 +14,13 @@
     }
     h3 {
       color: #151875;
-      font-family: Josefin Sans;
+      font-family: $font-family-Josefin;
       font-size: 22px;
       font-weight: 600;
     }
     p {
       color: rgba(26, 11, 91, 0.3);
-      font-size: 16px;
+      font-size: $fs-16;
       font-weight: 700;
     }
   }

@@ -1,3 +1,5 @@
+@import "../../../../../assets/scss/mixins.scss";
+@import "../../../../../assets/scss/vars.scss";
 .trend-content {
   background-color: #f1f0ff;
   padding-top: 36px;
@@ -14,7 +16,7 @@
     padding-bottom: 95px;
     h3 {
       color: #151875;
-      font-family: Josefin Sans;
+      font-family: $font-family-Josefin;
       font-size: 35px;
       font-weight: 700;
       margin-bottom: 30px;
@@ -26,7 +28,7 @@
         position: relative;
         margin-bottom: 13px;
         color: #acabc3;
-        font-size: 16px;
+        font-size: $fs-16;
         font-weight: 500;
         &::before {
           content: "";
@@ -61,22 +63,22 @@
         background: #fb2e86;
         margin-right: 19px;
         color: #fff;
-        font-family: Josefin Sans;
+        font-family: $font-family-Josefin;
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 0.34px;
       }
       .title-hint {
         span:first-child {
-          color: #151875;
-          font-family: Josefin Sans;
-          font-size: 14px;
+          color: $third-color;
+            font-family: $font-family-Josefin;
+            font-size: $fs-14;
           font-weight: 600;
           letter-spacing: 0.28px;
         }
         span:last-child {
-          color: #151875;
-          font-size: 14px;
+          color: $third-color;
+            font-size: $fs-14;
           font-weight: 400;
         }
       }
