@@ -1,6 +1,8 @@
 @import "../../../../../assets/scss/vars.scss";
+
 @import "../../../../../assets/scss/mixins.scss";
 
+@import "../../../../../assets/scss/glubal-rules.scss";
 // strat heading-bar
 
 .heading-bar {
@@ -12,8 +14,8 @@
     p,
     a {
       color: #F1F1F1;
-      font-family: $font-family-Josefin;
-        font-size: $fs-16;
+      font-family: Josefin Sans;
+      font-size: 16px;
       font-style: normal;
       font-weight: 600;
 
@@ -25,7 +27,7 @@
     .logo {
       p {
         color: $white;
-        font-family: $font-family-Josefin;
+        font-family: Josefin Sans;
         font-size: 34px;
         font-style: normal;
         font-weight: 700;
@@ -81,8 +83,8 @@
             margin: 0 10px;
 
             a {
-              font-family: $font-family-Josefin;
-                font-size: $fs-14;
+              font-family: Josefin Sans;
+                font-size: 14px;
               font-style: normal;
               font-weight: 600;
               color: $black;
@@ -96,10 +98,13 @@
             }
           }
 
+
         }
       }
     }
   }
+
+
 
 }
 

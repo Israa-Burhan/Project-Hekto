@@ -8,12 +8,12 @@ import { FeaturedProductsComponent } from './components/featured-products/featur
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LatestProductsComponent } from './components/latest-products/latest-products.component';
 import { TrendingProductsComponent } from './components/trending-products/trending-products.component';
-
+import { TrendProComponent } from './components/trend-pro/trend-pro.component';
+import { ShopexOfferComponent } from './components/shopex-offer/shopex-offer.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, TrendingProductsComponent],
-  imports: [CommonModule, HomeRoutingModule, CarouselModule,],
-
+  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent],
+  imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
 export class HomeModule { }

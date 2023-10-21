@@ -262,6 +262,28 @@
         "listTitle": "Executive Seat chair",
         "listSale": "$32.00"
       }
+    ],
+    "secOffer": [
+      {
+        "imgOffer": "../../../../../assets/images/home/free-delivery 1.svg",
+        "titleOffer": "24/7 Support",
+        "descOffer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+      },
+      {
+        "imgOffer": "../../../../../assets/images/home/cashback 1.svg",
+        "titleOffer": "24/7 Support",
+        "descOffer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+      },
+      {
+        "imgOffer": "../../../../../assets/images/home/premium-quality 1.svg",
+        "titleOffer": "24/7 Support",
+        "descOffer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+      },
+      {
+        "imgOffer": "../../../../../assets/images/home/24-hours-support 1.svg",
+        "titleOffer": "24/7 Support",
+        "descOffer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+      }
     ]
   }
 }
