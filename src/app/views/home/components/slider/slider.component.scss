@@ -2,7 +2,7 @@
 @import "../../../../../assets/scss/mixins.scss";
 .slider {
   background-color: #f2f0ff;
-  ::ng-deep {
+::ng-deep {
     .owl-carousel {
       .owl-dots {
         padding-bottom: 30px;
@@ -34,12 +34,12 @@
         .item-text {
           .hint {
             color: $secondry-color;
-            font-size: 16px;
+            font-size: $fs-16;
             font-weight: 700;
           }
           .title-slider {
             color: #000;
-            font-family: Josefin Sans;
+            font-family: $font-family-Josefin;
             font-size: 53px;
             font-weight: 700;
             letter-spacing: 1px;
@@ -53,7 +53,7 @@
             font-weight: 700;
             line-height: 1.6;
             @include smwidth {
-              font-size: 14px;
+              font-size: $fs-14;
             }
           }
           .btn-shop {
@@ -61,7 +61,7 @@
             padding: 16px 40px;
             background: $secondry-color;
             color: #fff;
-            font-family: Josefin Sans;
+            font-family: $font-family-Josefin;
             font-size: 17px;
             font-weight: 600;
             @include smwidth {

@@ -12,7 +12,7 @@
         &:hover {
           span {
             width: 28px;
-            background-color: #fb2e86;
+            background-color: $secondry-color;
           }
         }
         span {
@@ -26,7 +26,7 @@
     }
   }
   .feat {
-    background: #fff;
+    background: $white;
     transition: 0.3s;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     height: 450px;
@@ -45,10 +45,10 @@
         h2,
         p,
         span {
-          color: #fff;
+          color: $white;
         }
         .change-img a.change-blue {
-          background-color: #fff;
+          background-color: $white;
         }
       }
     }
@@ -83,8 +83,8 @@
       .feat-btn {
         transition: 0.4s;
         z-index: -1;
-        color: #fff;
-        font-family: Josefin Sans;
+        color: $white;
+          font-family: $font-family-Josefin;
         font-size: 12px;
         font-weight: 400;
         border-radius: 2px;
@@ -124,14 +124,14 @@
       }
       p,
       span {
-        color: #151875;
-        font-family: Josefin Sans;
+        color: $third-color;
+          font-family: $font-family-Josefin;
         font-size: 15px;
         font-weight: 600;
         transition: 0.3s;
       }
       span {
-        font-family: Lato;
+        font-family: $font-family-lato;
       }
     }
   }

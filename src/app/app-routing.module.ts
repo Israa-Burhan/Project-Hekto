@@ -25,6 +25,7 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () =>
       import('./views/home/home.module').then(() => HomeModule),
+
   },
   {
     path: 'shop',

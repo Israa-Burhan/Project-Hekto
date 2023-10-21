@@ -8,6 +8,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
 import { SharedModule } from './views/shared/shared.module';
+import { HomeModule } from './views/home/home.module';
 
 @NgModule({
   declarations: [AppComponent, NotFoundComponent],
@@ -18,6 +19,7 @@ import { SharedModule } from './views/shared/shared.module';
     CarouselModule,
     SharedModule,
     HttpClientModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],
