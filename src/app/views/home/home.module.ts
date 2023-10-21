@@ -8,7 +8,7 @@ import { FeaturedProductsComponent } from './components/featured-products/featur
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LatestProductsComponent } from './components/latest-products/latest-products.component';
 import { TrendingProductsComponent } from './components/trending-products/trending-products.component';
-import { RouterModule } from '@angular/router';
+
 
 
 @NgModule({
@@ -16,4 +16,4 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, HomeRoutingModule, CarouselModule,],
 
 })
-export class HomeModule {}
+export class HomeModule { }

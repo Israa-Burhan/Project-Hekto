@@ -32,7 +32,7 @@
         line-height: normal;
         @include smwidth {
             font-size: 30px;
-          }
+            }
       }
     }
 
@@ -96,13 +96,10 @@
             }
           }
 
-
         }
       }
     }
   }
-
-
 
 }
 
@@ -143,7 +140,7 @@
       .active {
         color: $secondry-color;
       }
-                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
   }
 
   .search {
@@ -152,21 +149,21 @@
     flex-shrink: 0;
     input {
         &:focus {
-          box-shadow: none;
+            box-shadow: none;
+          }
         }
-      }
 
-      .search-icon {
-        width: 51px;
-        background-color: $secondry-color;
-        cursor: pointer;
+            .search-icon {
+              width: 51px;
+              background-color: $secondry-color;
+              cursor: pointer;
 
         svg {
-          width: 24px;
-          height: 24px;
-          color: $white;
+            width: 24px;
+            height: 24px;
+            color: $white;
+          }
         }
-      }
   }
 }
 

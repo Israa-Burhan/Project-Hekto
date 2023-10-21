@@ -206,7 +206,7 @@
         }
       ]
     },
-    "trendingPro":[
+    "trendingPro": [
       {
         "trendImg": "../../../../../assets/images/home/image 1171.png",
         "trendTitle": "Cantilever chair",
@@ -232,37 +232,36 @@
         "saleOld": "$42.00"
       }
     ],
-    "amontOffer":[
+    "amontOffer": [
       {
-        "titleOffer":"23% off in all products",
-        "linkOffer":"Shop Now",
-        "imgOffer":"../../../../../assets/images/home/image 1162.png",
-        "class1":"img1"
+        "titleOffer": "23% off in all products",
+        "linkOffer": "Shop Now",
+        "imgOffer": "../../../../../assets/images/home/image 1162.png",
+        "class1": "img1"
       },
       {
-        "titleOffer":"23% off in all products",
-        "linkOffer":"View Collection",
-        "imgOffer":"../../../../../assets/images/home/image 1161.png",
-        "class1":"img2"
+        "titleOffer": "23% off in all products",
+        "linkOffer": "View Collection",
+        "imgOffer": "../../../../../assets/images/home/image 1161.png",
+        "class1": "img2"
       }
     ],
-    "trendList":[
+    "trendList": [
       {
-        "listImg":"../../../../../assets/images//home/image 30.png",
-        "listTitle":"Executive Seat chair",
-        "listSale":"$32.00"
+        "listImg": "../../../../../assets/images//home/image 30.png",
+        "listTitle": "Executive Seat chair",
+        "listSale": "$32.00"
       },
       {
-        "listImg":"../../../../../assets/images//home/image 19.png",
-        "listTitle":"Executive Seat chair",
-        "listSale":"$32.00"
+        "listImg": "../../../../../assets/images//home/image 19.png",
+        "listTitle": "Executive Seat chair",
+        "listSale": "$32.00"
       },
       {
-        "listImg":"../../../../../assets/images//home/image 28.png",
-        "listTitle":"Executive Seat chair",
-        "listSale":"$32.00"
+        "listImg": "../../../../../assets/images//home/image 28.png",
+        "listTitle": "Executive Seat chair",
+        "listSale": "$32.00"
       }
     ]
-    }
   }
-
+}
