@@ -16,7 +16,7 @@
     }
 
     .trendImg {
-      background-color: #F5F6F8;
+      background-color: #f5f6f8;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -48,7 +48,7 @@
         }
 
         .sale-old {
-          color: rgba(21, 24, 117, 0.30);
+          color: rgba(21, 24, 117, 0.3);
           /* price cut */
           font-family: $font-family-Josefin;
           font-size: 12px;
@@ -59,7 +59,6 @@
       }
     }
   }
-
 }
 
 .trend-offer {
@@ -89,21 +88,22 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
   }
 
   .img-offer {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
   }
 
   .img1 {
-    background-color: #FFF6FB;
+    background-color: #fff6fb;
   }
 
   .img2 {
-    background-color: #EEEFFB;
+    background-color: #eeeffb;
   }
 }
 
@@ -114,7 +114,7 @@
     margin-bottom: 20px;
 
     .list-img {
-      background-color: #F5F6F8;
+      background-color: #f5f6f8;
       width: 107px;
       height: 74px;
       display: flex;
