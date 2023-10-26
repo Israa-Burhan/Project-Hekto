@@ -284,6 +284,50 @@
         "titleOffer": "24/7 Support",
         "descOffer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
       }
+    ],
+    "discountItem": [
+      {
+        "discountTitle": "20% Discount Of All Products",
+        "typePro": "Eams Sofa Compact",
+        "descriptionPro": "Round armrests, soft lines and an inviting upholstery give this wing chair a soft embracing feel.",
+        "featPro": [
+          {
+            "feat1": "Material expose like metals",
+            "feat2": "Clear lines and geomatric figures",
+            "feat3": "Simple neutral colours.",
+            "feat4": "Material expose like metals"
+          }
+        ],
+        "imagPro": "../../../../../assets/images/home/chair1.png"
+      },
+      {
+        "discountTitle": "35% Discount Of some Products",
+        "typePro": "POÄNG Armchair frame",
+        "descriptionPro": "Wood is the material most commonly associated with IKEA furniture, and for good reasons",
+        "featPro": [
+          {
+            "feat1": "100% polypropylene",
+            "feat2": "Layer-glued wood veneer, Birch veneer.",
+            "feat3": "100% polyester (min. 80% recycled)",
+            "feat4": "Wipe clean with a damp cloth."
+          }
+        ],
+        "imagPro": "../../../../../assets/images/home/chair1.png"
+      },
+      {
+        "discountTitle": "10% Discount Of All Products",
+        "typePro": "TULLSTA Armchair cover",
+        "descriptionPro": "A range of coordinated covers makes it easy for you to give your furniture a new look.",
+        "featPro": [
+          {
+            "feat1": "Polyurethane foam 20 kg/cu.m.",
+            "feat2": "Solid beech, Clear acrylic lacquer",
+            "feat3": "55% cotton, 45% polyester",
+            "feat4": "Solid wood, Particleboard, 100%solid"
+          }
+        ],
+        "imagPro": "../../../../../assets/images/home/chair1.png"
+      }
     ]
   }
 }
