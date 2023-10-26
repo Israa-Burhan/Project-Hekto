@@ -15,9 +15,9 @@
     p,
     a {
       color: #f1f1f1;
-      font-family: Josefin Sans;
-      font-size: 16px;
-      font-style: normal;
+      font-family: $font-family-Josefin;
+      font-size: $fs-16;
+
       font-weight: 600;
 
       svg {
@@ -28,14 +28,14 @@
     .logo {
       p {
         color: $white;
-        font-family: Josefin Sans;
+        font-family: $font-family-Josefin;
         font-size: 34px;
-        font-style: normal;
+
         font-weight: 700;
-        line-height: normal;
+
         @include smwidth {
           font-size: 30px;
-          }
+        }
       }
     }
 
@@ -84,9 +84,9 @@
             margin: 0 10px;
 
             a {
-              font-family: Josefin Sans;
-              font-size: 14px;
-              font-style: normal;
+              font-family: $font-family-Josefin;
+              font-size: $fs-14;
+
               font-weight: 600;
               color: $black;
               border-radius: 6px;
@@ -97,11 +97,11 @@
                 transition: 0.4s;
               }
             }
-                    }
+          }
         }
       }
     }
-    }
+  }
 }
 
 // strat heading-bar
@@ -114,11 +114,11 @@
   .logo {
     p {
       color: #0d0e43;
-      font-family: Josefin Sans;
+      font-family: $font-family-Josefin;
       font-size: 34px;
-      font-style: normal;
+
       font-weight: 700;
-      line-height: normal;
+
     }
   }
 
@@ -128,9 +128,9 @@
 
       .nav-link {
         color: #0d0e43;
-        font-family: Lato;
-        font-size: 16px;
-        font-style: normal;
+
+        font-size: $fs-16;
+
         font-weight: 400;
         line-height: 20px;
         cursor: pointer;
@@ -140,30 +140,30 @@
       .active {
         color: $secondry-color;
       }
-        }
+    }
   }
 
   .search {
     width: 317px;
     height: 40px;
-    flex-shrink: 0;
+
     input {
       &:focus {
-          box-shadow: none;
-        }
+        box-shadow: none;
       }
+    }
 
-        .search-icon {
-          width: 51px;
-          background-color: $secondry-color;
-          cursor: pointer;
+    .search-icon {
+      width: 51px;
+      background-color: $secondry-color;
+      cursor: pointer;
 
       svg {
-          width: 24px;
-          height: 24px;
-          color: $white;
-        }
+        width: 24px;
+        height: 24px;
+        color: $white;
       }
+    }
   }
 }
 
@@ -180,11 +180,11 @@
   .offcanvas-header {
     h5 {
       color: $main-color;
-      font-family: Josefin Sans;
+      font-family: $font-family-Josefin;
       font-size: 30px;
-      font-style: normal;
+
       font-weight: 700;
-      line-height: normal;
+
     }
   }
 
@@ -193,9 +193,9 @@
       ul {
         a {
           color: #0d0e43;
-          font-family: Josefin Sans;
-          font-size: 16px;
-          font-style: normal;
+          font-family: $font-family-Josefin;
+          font-size: $fs-16;
+
           font-weight: 400;
         }
       }
@@ -210,9 +210,9 @@
     .nav {
       a {
         color: #0d0e43;
-        font-family: Josefin Sans;
-        font-size: 16px;
-        font-style: normal;
+        font-family: $font-family-Josefin;
+        font-size: $fs-16;
+
         font-weight: 400;
       }
 
@@ -223,9 +223,9 @@
 
     p {
       color: #0d0e43;
-      font-family: Josefin Sans;
-      font-size: 16px;
-      font-style: normal;
+      font-family: $font-family-Josefin;
+      font-size: $fs-16;
+
       font-weight: 600;
 
       svg {
