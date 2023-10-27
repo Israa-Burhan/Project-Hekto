@@ -11,10 +11,11 @@ import { TrendingProductsComponent } from './components/trending-products/trendi
 import { TrendProComponent } from './components/trend-pro/trend-pro.component';
 import { ShopexOfferComponent } from './components/shopex-offer/shopex-offer.component';
 import { DiscountItemComponent } from './components/discount-item/discount-item.component';
+import { LeatestBlogComponent } from './components/leatest-blog/leatest-blog.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent, DiscountItemComponent],
+  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent, DiscountItemComponent, LeatestBlogComponent],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
 export class HomeModule { }
