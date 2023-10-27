@@ -27,9 +27,7 @@
       .card-title {
         color: $third-color;
         text-align: center;
-        font-family: $font-family-lato;
         font-size: $fs-16;
-        font-style: normal;
         font-weight: 700;
         line-height: 25.6px;
         /* 160% */
@@ -42,9 +40,7 @@
           /* Caption\ */
           font-family: $font-family-Josefin;
           font-size: $fs-14;
-          font-style: normal;
           font-weight: 400;
-          line-height: normal;
         }
 
         .sale-old {
@@ -52,9 +48,7 @@
           /* price cut */
           font-family: $font-family-Josefin;
           font-size: 12px;
-          font-style: normal;
           font-weight: 400;
-          line-height: normal;
         }
       }
     }
@@ -75,20 +69,14 @@
     color: $third-color;
     font-family: $font-family-Josefin;
     font-size: 26px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
   }
 
   .link-offer {
     color: $secondry-color;
     text-align: center;
-    font-family: $font-family-lato;
     font-size: $fs-16;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
   }
 
@@ -131,20 +119,15 @@
         /* button text */
         font-family: $font-family-Josefin;
         font-size: $fs-16;
-        font-style: normal;
         font-weight: 600;
-        line-height: normal;
       }
 
       .list-sale {
         color: $third-color;
-
         /* price cut */
         font-family: $font-family-Josefin;
         font-size: 12px;
-        font-style: normal;
         font-weight: 400;
-        line-height: normal;
       }
     }
   }
