@@ -14,11 +14,12 @@ import { DiscountItemComponent } from './components/discount-item/discount-item.
 import { LeatestBlogComponent } from './components/leatest-blog/leatest-blog.component';
 import { NewslaterComponent } from './components/newslater/newslater.component';
 import { TopCategoriesComponent } from './components/top-categories/top-categories.component';
+import { ImageCompaniesComponent } from '../shared/components/image-companies/image-companies.component';
 
 
 
 @NgModule({
-  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent, DiscountItemComponent, LeatestBlogComponent, NewslaterComponent, TopCategoriesComponent],
+  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, ImageCompaniesComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent, DiscountItemComponent, LeatestBlogComponent, NewslaterComponent, TopCategoriesComponent],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
 export class HomeModule { }

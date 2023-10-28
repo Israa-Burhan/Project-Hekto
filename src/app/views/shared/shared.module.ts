@@ -28,7 +28,7 @@ import { ImageCompaniesComponent } from './components/image-companies/image-comp
     FooterComponent,
     RouterModule,
     BrowserModule,
-    ImageCompaniesComponent
+    ImageCompaniesComponent,
   ]
 })
 export class SharedModule { }
