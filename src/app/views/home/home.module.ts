@@ -12,10 +12,13 @@ import { TrendProComponent } from './components/trend-pro/trend-pro.component';
 import { ShopexOfferComponent } from './components/shopex-offer/shopex-offer.component';
 import { DiscountItemComponent } from './components/discount-item/discount-item.component';
 import { LeatestBlogComponent } from './components/leatest-blog/leatest-blog.component';
+import { NewslaterComponent } from './components/newslater/newslater.component';
+import { TopCategoriesComponent } from './components/top-categories/top-categories.component';
+
 
 
 @NgModule({
-  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent, DiscountItemComponent, LeatestBlogComponent],
+  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent, DiscountItemComponent, LeatestBlogComponent, NewslaterComponent, TopCategoriesComponent],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
 export class HomeModule { }

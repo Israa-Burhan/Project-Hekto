@@ -14,6 +14,7 @@ import { MyAccountModule } from './views/my-account/my-account.module';
 import { MyAccountComponent } from './views/my-account/my-account.component';
 import { ContactModule } from './views/contact/contact.module';
 import { ContactComponent } from './views/contact/contact.component';
+import { HomeComponent } from './views/home/home.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,7 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () =>
       import('./views/home/home.module').then(() => HomeModule),
+    component: HomeComponent,
 
   },
   {

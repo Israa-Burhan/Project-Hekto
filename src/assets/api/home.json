@@ -409,7 +409,29 @@
         "leatestLink": "Read More",
         "leatestClass": "leatestColor1"
       }
-      
+
+    ],
+    "catePro": [
+      {
+        "cateImg": "../../../../../assets/images/home/image 20.png",
+        "cateTittle": "Mini LCW Chair",
+        "cateSale": "$56.00"
+      },
+      {
+        "cateImg": "../../../../../assets/images/home/image 1168.png",
+        "cateTittle": "Mini LCW Chair",
+        "cateSale": "$56.00"
+      },
+      {
+        "cateImg": "../../../../../assets/images/home/image 1171.png",
+        "cateTittle": "Mini LCW Chair",
+        "cateSale": "$56.00"
+      },
+      {
+        "cateImg": "../../../../../assets/images/home/image 20.png",
+        "cateTittle": "Mini LCW Chair",
+        "cateSale": "$56.00"
+      }
     ]
   }
 }
