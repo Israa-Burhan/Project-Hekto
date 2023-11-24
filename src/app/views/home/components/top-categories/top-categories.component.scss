@@ -17,7 +17,6 @@
         display: block !important;
 
         .owl-dot {
-
           &.active,
           &:hover {
             span {
@@ -37,25 +36,6 @@
       }
     }
   }
-
-  .cate {
-    transition: 0.3s;
-
-    &:hover {
-      transition: 0.3s;
-
-      .cateimg {
-        bottom: 10px;
-        left: 10px;
-      }
-
-      .cate-btn {
-        bottom: 20px;
-        z-index: 1;
-      }
-    }
-  }
-
 
   .cate-btn {
     padding: 8px 18px;
@@ -79,10 +59,13 @@
   }
 
   .cateimg {
+    transition: 0.4s;
     width: 269px;
     height: 269px;
     border-radius: 269px;
-    background: #F6F7FB;
+    background: #f6f7fb;
+    left: 0;
+    bottom: 0;
     /* shadow */
     box-shadow: 0px 8px 40px 0px rgba(49, 32, 138, 0.05);
 
@@ -91,11 +74,24 @@
       height: 178px;
     }
   }
+  .cate {
+    padding-top: 30px;
+    &:hover {
+      .cateimg {
+        bottom: 10px;
+        left: 10px;
+      }
 
+      .cate-btn {
+        bottom: 20px;
+        z-index: 1;
+      }
+    }
+  }
 
   .card-title {
     color: $third-color;
-    font-family: $font-family-Josefin ;
+    font-family: $font-family-Josefin;
     font-size: 20px;
     font-weight: 400;
   }

@@ -7,21 +7,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { ImageCompaniesComponent } from './components/image-companies/image-companies.component';
-
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [
-    HeaderComponent,
-    FooterComponent,
-    ImageCompaniesComponent
-  ],
+  declarations: [HeaderComponent, FooterComponent, ImageCompaniesComponent],
   imports: [
     CommonModule,
     CarouselModule,
     BrowserModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   ],
   exports: [
     HeaderComponent,
@@ -29,6 +25,6 @@ import { ImageCompaniesComponent } from './components/image-companies/image-comp
     RouterModule,
     BrowserModule,
     ImageCompaniesComponent,
-  ]
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}
