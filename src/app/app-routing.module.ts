@@ -27,7 +27,6 @@ const routes: Routes = [
     loadChildren: () =>
       import('./views/home/home.module').then(() => HomeModule),
     component: HomeComponent,
-
   },
   {
     path: 'shop',
@@ -62,7 +61,9 @@ const routes: Routes = [
   {
     path: 'my-account',
     loadChildren: () =>
-      import('./views/my-account/my-account.module').then(() => MyAccountModule),
+      import('./views/my-account/my-account.module').then(
+        () => MyAccountModule
+      ),
     component: MyAccountComponent,
   },
   { path: '**', component: NotFoundComponent },
@@ -70,6 +71,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

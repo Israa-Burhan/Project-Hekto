@@ -16,10 +16,21 @@ import { NewslaterComponent } from './components/newslater/newslater.component';
 import { TopCategoriesComponent } from './components/top-categories/top-categories.component';
 import { ImageCompaniesComponent } from '../shared/components/image-companies/image-companies.component';
 
-
-
 @NgModule({
-  declarations: [HomeComponent, SliderComponent, FeaturedProductsComponent, LatestProductsComponent, ImageCompaniesComponent, TrendingProductsComponent, TrendProComponent, ShopexOfferComponent, DiscountItemComponent, LeatestBlogComponent, NewslaterComponent, TopCategoriesComponent],
+  declarations: [
+    HomeComponent,
+    SliderComponent,
+    FeaturedProductsComponent,
+    LatestProductsComponent,
+    TrendingProductsComponent,
+    TrendProComponent,
+    ShopexOfferComponent,
+    DiscountItemComponent,
+    LeatestBlogComponent,
+    NewslaterComponent,
+    TopCategoriesComponent,
+    ImageCompaniesComponent,
+  ],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
-export class HomeModule { }
+export class HomeModule {}

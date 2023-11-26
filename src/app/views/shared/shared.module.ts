@@ -8,27 +8,15 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { ImageCompaniesComponent } from './components/image-companies/image-companies.component';
 
-
-
 @NgModule({
-  declarations: [
-    HeaderComponent,
-    FooterComponent,
-    ImageCompaniesComponent
-  ],
+  declarations: [HeaderComponent, FooterComponent, ImageCompaniesComponent],
   imports: [
     CommonModule,
     CarouselModule,
     BrowserModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
   ],
-  exports: [
-    HeaderComponent,
-    FooterComponent,
-    RouterModule,
-    BrowserModule,
-    ImageCompaniesComponent,
-  ]
+  exports: [HeaderComponent, FooterComponent, ImageCompaniesComponent],
 })
-export class SharedModule { }
+export class SharedModule {}

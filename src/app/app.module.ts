@@ -6,19 +6,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppComponent } from './app.component';
-import { NotFoundComponent } from './views/not-found/not-found.component';
-import { HeaderComponent } from './views/shared/components/header/header.component';
-import { FooterComponent } from './views/shared/components/footer/footer.component';
-
+import { SharedModule } from './views/shared/shared.module';
 
 @NgModule({
-  declarations: [AppComponent, NotFoundComponent, HeaderComponent, FooterComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
     HttpClientModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
