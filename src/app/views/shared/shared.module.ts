@@ -17,6 +17,12 @@ import { ImageCompaniesComponent } from './components/image-companies/image-comp
     RouterModule,
     HttpClientModule,
   ],
-  exports: [HeaderComponent, FooterComponent, ImageCompaniesComponent],
+  exports: [
+    HeaderComponent,
+    FooterComponent,
+    RouterModule,
+    BrowserModule,
+    ImageCompaniesComponent,
+  ],
 })
 export class SharedModule {}

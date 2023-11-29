@@ -8,3 +8,49 @@ $fs-14: 14px;
 $fs-16: 16px;
 $font-family-roboto: Roboto;
 $font-family-Josefin: Josefin Sans;
+:root {
+  --bg-color: #000;
+  --title-head: #fff;
+  --third-color: #fff;
+  //header
+  --bg-header: #000;
+  --border-color-header: #ddd;
+  --logo-header-color:#fff;
+  //discount-item
+  --dis-text-color: #fff;
+  //shopex-offer
+  --p-color: #ddd;
+  //border-input
+  --border-input: #ddd;
+  --placehoder-color:#fff;
+  //footer
+  --bg-footer: #000;
+  --text-color-footer: #fff;
+  --heckto-color: #fff;
+  --border-color: #ddd;
+  //copyRight
+  --copyRight-color: #000;
+}
+:root[data-theme="dark"] {
+  --bg-color: #ffffff;
+  --title-head: #151875;
+  --third-color: #151875;
+  //header
+  --bg-header: #7e33e0;
+  --border-color-header: #7e33e0;
+  --logo-header-color:#0d0e43:
+  //discount-item
+  --dis-text-color: #000;
+  //shopex-offer
+  --p-color: #1a0b5b4d;
+  //border-input
+  --border-input: #fff;
+  --placehoder-color:#000;
+  //footer
+  --bg-footer: #eeeffb;
+  --text-color-footer: #8a8fb9;
+  --heckto-color: #000;
+  --border-color: #eeeffb;
+  //copyRight
+  --copyRight-color: #e7e4f8;
+}

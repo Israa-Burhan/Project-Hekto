@@ -15,6 +15,7 @@ import { LeatestBlogComponent } from './components/leatest-blog/leatest-blog.com
 import { NewslaterComponent } from './components/newslater/newslater.component';
 import { TopCategoriesComponent } from './components/top-categories/top-categories.component';
 import { ImageCompaniesComponent } from '../shared/components/image-companies/image-companies.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ImageCompaniesComponent } from '../shared/components/image-companies/im
     SliderComponent,
     FeaturedProductsComponent,
     LatestProductsComponent,
+    ImageCompaniesComponent,
     TrendingProductsComponent,
     TrendProComponent,
     ShopexOfferComponent,
@@ -29,7 +31,6 @@ import { ImageCompaniesComponent } from '../shared/components/image-companies/im
     LeatestBlogComponent,
     NewslaterComponent,
     TopCategoriesComponent,
-    ImageCompaniesComponent,
   ],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })

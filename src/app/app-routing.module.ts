@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeModule } from './views/home/home.module';
-import { NotFoundComponent } from './views/not-found/not-found.component';
 import { ShopModule } from './views/shop/shop.module';
 import { ShopComponent } from './views/shop/shop.component';
 import { BlogModule } from './views/blog/blog.module';
@@ -15,11 +14,12 @@ import { MyAccountComponent } from './views/my-account/my-account.component';
 import { ContactModule } from './views/contact/contact.module';
 import { ContactComponent } from './views/contact/contact.component';
 import { HomeComponent } from './views/home/home.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: 'home',
     pathMatch: 'full',
   },
   {

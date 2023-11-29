@@ -5,7 +5,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 @Component({
   selector: 'app-top-categories',
   templateUrl: './top-categories.component.html',
-  styleUrls: ['./top-categories.component.scss']
+  styleUrls: ['./top-categories.component.scss'],
 })
 export class TopCategoriesComponent {
   public home: any;
@@ -35,7 +35,7 @@ export class TopCategoriesComponent {
     nav: false,
   };
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   createtopCate() {
     this.http.get('assets/api/home.json').subscribe((data: any) => {

@@ -35,6 +35,7 @@ export class FeaturedProductsComponent {
     },
     nav: false,
   };
+  featPro: any;
 
   constructor(private http: HttpClient) {}
 
