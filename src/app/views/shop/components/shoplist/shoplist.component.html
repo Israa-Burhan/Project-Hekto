@@ -1,0 +1,1219 @@
+<div class="container" *ngIf="shop">
+  <div class="menu_shop row">
+    <div class="eco_acc col-lg-4 col-12">
+      <h3>Ecommerce Acceories & Fashion item</h3>
+      <p>About 9,620 results (0.62 seconds)</p>
+    </div>
+    <div class="filter col-lg-8 col-12">
+      <div class="d-flex align-items-center mb-md-0 mb-3">
+        <div class="sort">
+          <span>Per Page:</span>
+          <input type="text" />
+        </div>
+        <div class="d-flex align-items-center sort">
+          <span>Sort By:</span>
+          <select (change)="sort($event)">
+            <option selected value="all">All</option>
+            <option value="asc">Low To High</option>
+            <option value="desc">High To Low</option>
+          </select>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="sort">
+          <span>View:</span>
+          <span><i class="fa-solid fa-grip"></i></span>
+          <span><i class="fa-solid fa-list"></i></span>
+        </div>
+        <div class="search sort">
+          <input type="text" [(ngModel)]="searchText" placeholder="Search " />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="side-bar col-lg-3 col-12">
+      <div
+        class="accordion d-lg-block d-none"
+        id="accordionPanelsStayOpenExample "
+      >
+        <div class="accordion-item border-0 border-bottom-1">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-b"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              Product Brand
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Coaster Furniture
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Fusion Dot High Fashion
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckChecked"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Unique Furnitture Restor
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Dream Furnitture Flipping
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Young Repurposed
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Green DIY furniture
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 border-bottom-1">
+          <h2 class="accordion-header" id="panelsStayOpen-heading1">
+            <button
+              class="accordion-b"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapse1"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapse1"
+            >
+              Discount Offer
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapse1"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-heading1"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      20% Cashback
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      5% Cashback Offer
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      25% Discount Offer
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 border-bottom-1">
+          <h2 class="accordion-header" id="panelsStayOpen-heading2">
+            <button
+              class="accordion-b"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapse2"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapse2"
+            >
+              Rating Item
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapse2"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-heading2"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span>(2341)</span>
+                      </div>
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span>(1726)</span>
+                      </div>
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span>(258)</span>
+                      </div>
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span>(25)</span>
+                      </div>
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 border-bottom-3">
+          <h2 class="accordion-header" id="panelsStayOpen-heading3">
+            <button
+              class="accordion-b"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapse3"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapse3"
+            >
+              Categories
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapse3"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-heading3"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Prestashop
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Magento
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Bigcommerce
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      osCommerce
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      3dcart
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Bags
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Accessories
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Jewellery
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Watches
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 border-bottom-1">
+          <h2 class="accordion-header" id="panelsStayOpen-heading4">
+            <button
+              class="accordion-b"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapse4"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapse4"
+            >
+              Price Filter
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapse4"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-heading4"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      $0.00 - $150.00
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      $150.00 - $350.00
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      $150.00 - $504.00
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input rounded-0"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      $450.00 +
+                    </label>
+                  </div>
+                </li>
+              </ul>
+              <div class="search border">
+                <input type="text" class="border-0" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 border-bottom-1">
+          <h2 class="accordion-header" id="panelsStayOpen-heading5">
+            <button
+              class="accordion-b"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapse5"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapse5"
+            >
+              Filter By Color
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapse4"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-heading5"
+          >
+            <div class="accordion-body"></div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="accordion d-lg-none d-block"
+        id="accordionPanelsStayOpenExample"
+      >
+        <div class="accordion-item border-0 border-bottom-1">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOn">
+            <button
+              class="accordion-b"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOn"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOn"
+            >
+              Show Filters
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOn"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingOn"
+          >
+            <div class="accordion-body">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item border-0 border-bottom-1">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      class="accordion-b"
+                      type="button "
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      Product Brand
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Coaster Furniture
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Fusion Dot High Fashion
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckChecked"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckChecked"
+                            >
+                              Unique Furnitture Restor
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Dream Furnitture Flipping
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Young Repurposed
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Green DIY furniture
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0 border-bottom-1">
+                  <h2 class="accordion-header" id="panelsStayOpen-heading1">
+                    <button
+                      class="accordion-b"
+                      type="button "
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse1"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse1"
+                    >
+                      Discount Offer
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse1"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading1"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              20% Cashback
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              5% Cashback Offer
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              25% Discount Offer
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0 border-bottom-1">
+                  <h2 class="accordion-header" id="panelsStayOpen-heading2">
+                    <button
+                      class="accordion-b"
+                      type="button "
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse2"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse2"
+                    >
+                      Rating Item
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse2"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading2"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(2341)</span>
+                              </div>
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(1726)</span>
+                              </div>
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(258)</span>
+                              </div>
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(25)</span>
+                              </div>
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0 border-bottom-3">
+                  <h2 class="accordion-header" id="panelsStayOpen-heading3">
+                    <button
+                      class="accordion-b"
+                      type="button "
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse3"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse3"
+                    >
+                      Categories
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse3"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading3"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Prestashop
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Magento
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Bigcommerce
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              osCommerce
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              3dcart
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Bags
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Accessories
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Jewellery
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              Watches
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0 border-bottom-1">
+                  <h2 class="accordion-header" id="panelsStayOpen-heading4">
+                    <button
+                      class="accordion-b"
+                      type="button "
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse4"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse4"
+                    >
+                      Price Filter
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse4"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading4"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              $0.00 - $150.00
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              $150.00 - $350.00
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              $150.00 - $504.00
+                            </label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-check">
+                            <input
+                              class="form-check-input rounded-0"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckDefault"
+                            >
+                              $450.00 +
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="search border">
+                        <input type="text" class="border-0" />
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0 border-bottom-1">
+                  <h2 class="accordion-header" id="panelsStayOpen-heading5">
+                    <button
+                      class="accordion-b"
+                      type="button "
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse5"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse5"
+                    >
+                      Filter By Color
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse4"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading5"
+                  >
+                    <div class="accordion-body"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content col-lg-9 col-12">
+      <div
+        class="box d-flex mb-3"
+        *ngFor="
+          let item of shop | sort : { type: sortType } | filter : searchText
+        "
+      >
+        <div
+          class="col-4 d-flex justify-content-center align-items-center {{
+            item.img
+          }}"
+        >
+          <img src="{{ item.prd_img }}" class="mw-100" alt="" />
+        </div>
+        <div class="details ps-3 col-8">
+          <div class="d-flex align-items-center">
+            <div class="prd_name">{{ item.prd_name }}</div>
+            <div class="prd_color">
+              <img src="{{ item.prd_color }}" alt="" />
+            </div>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="price_new me-3">${{ item.price_new }}</div>
+            <div class="price_old me-3">${{ item.price_old }}</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="prd-title">
+            <p>{{ item.prd_title }}</p>
+          </div>
+          <div class="icons">
+            <ul class="d-flex">
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-solid fa-magnifying-glass-plus"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

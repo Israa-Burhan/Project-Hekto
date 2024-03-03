@@ -89,7 +89,7 @@
         {
           "latestImg": "../../../../../assets/images/home/image 11.png",
           "imgvector": "../../../../../assets/images/home/Vector 1.png",
-          "latestBanner": "New",
+          "latestBanner": "New ",
           "latestTitel": "Comfort Handy Craft",
           "latestSale": "60.00",
           "latestOffer": "15.10"
@@ -367,7 +367,6 @@
           }
         ]
       }
-
     ],
     "leatestBlog": [
       {
@@ -409,7 +408,6 @@
         "leatestLink": "Read More",
         "leatestClass": "leatestColor1"
       }
-
     ],
     "catePro": [
       {

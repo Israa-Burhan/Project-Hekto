@@ -7,22 +7,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { ImageCompaniesComponent } from './components/image-companies/image-companies.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [HeaderComponent, FooterComponent, ImageCompaniesComponent],
   imports: [
     CommonModule,
-    CarouselModule,
-    BrowserModule,
-    RouterModule,
     HttpClientModule,
-  ],
-  exports: [
-    HeaderComponent,
-    FooterComponent,
     RouterModule,
-    BrowserModule,
-    ImageCompaniesComponent,
+    TranslateModule.forChild({
+      extend: true,
+    }),
   ],
+  exports: [HeaderComponent, FooterComponent, ImageCompaniesComponent],
 })
 export class SharedModule {}

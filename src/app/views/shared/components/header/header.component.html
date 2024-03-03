@@ -35,17 +35,20 @@
                 class="shadow dropdown-menu p-0 border-0 rounded-0 position-absolute"
               >
                 <li class="py-1 text-center">
-                  <a class="dropdown-item pt-2 pb-2 pe-0" href="#"> English </a>
-                </li>
-                <li class="py-1 text-center">
-                  <a class="dropdown-item pt-2 pb-2 ps-1 pe-0" href="#">
-                    Arabic</a
+                  <button
+                    class="dropdown-item pt-2 pb-2 pe-0"
+                    (click)="switchLanguage('en')"
                   >
+                    English
+                  </button>
                 </li>
                 <li class="py-1 text-center">
-                  <a class="dropdown-item pt-2 pb-2 ps-1 pe-0" href="#">
-                    Spanish
-                  </a>
+                  <button
+                    class="dropdown-item pt-2 pb-2 ps-1 pe-0"
+                    (click)="switchLanguage('ar')"
+                  >
+                    Arabic
+                  </button>
                 </li>
               </ul>
             </a>

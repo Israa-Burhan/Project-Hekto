@@ -14,8 +14,14 @@ import { DiscountItemComponent } from './components/discount-item/discount-item.
 import { LeatestBlogComponent } from './components/leatest-blog/leatest-blog.component';
 import { NewslaterComponent } from './components/newslater/newslater.component';
 import { TopCategoriesComponent } from './components/top-categories/top-categories.component';
-import { ImageCompaniesComponent } from '../shared/components/image-companies/image-companies.component';
 import { SharedModule } from '../shared/shared.module';
+import {
+  TranslateLoader,
+  TranslateModule,
+  TranslateService,
+} from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
+import { createTranslateLoader } from 'src/app/app.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,6 @@ import { SharedModule } from '../shared/shared.module';
     SliderComponent,
     FeaturedProductsComponent,
     LatestProductsComponent,
-    ImageCompaniesComponent,
     TrendingProductsComponent,
     TrendProComponent,
     ShopexOfferComponent,
@@ -32,6 +37,20 @@ import { SharedModule } from '../shared/shared.module';
     NewslaterComponent,
     TopCategoriesComponent,
   ],
-  imports: [CommonModule, HomeRoutingModule, CarouselModule],
+  imports: [
+    CommonModule,
+    HomeRoutingModule,
+    CarouselModule,
+    SharedModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      useDefaultLang: true,
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createTranslateLoader,
+        deps: [HttpClient],
+      },
+    }),
+  ],
 })
 export class HomeModule {}
